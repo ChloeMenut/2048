@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>2048</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet"> 
+	</head>
+	<body>
+		<div class="header">
+			<h1>2048</h1>
+			<div id="game_assets">
+				<p>Votre score: <span id="score"></span></p>
+				<p>Meilleur score: <span id="best_score"></span></p>
+				<a class="myButton" onclick="init()">Rejouer</a>
+			</div>
+		</div>
+		<br>
+		<div id="board"></div>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+				integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+				crossorigin="anonymous"></script>
+		<script type="text/javascript" src="game.js"></script>
+		<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	</body>
+</html>

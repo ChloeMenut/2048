@@ -1,0 +1,134 @@
+body {
+    width: 950px;
+    margin: auto;
+    background-image: url("img/image_bd.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: black;
+    font-family: 'Bangers', cursive;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    grid-auto-rows: minmax(50px, auto);
+    margin: auto;
+    width: 700px;
+}
+
+h1 {
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 76px;
+    text-align: center;
+}
+
+#game_assets {
+    grid-column: 3;
+    grid-row: 1;
+    text-align: center;
+    font-size: 20px;
+    background-color: #FFAB68;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+
+#board {
+    margin: auto;
+    width: 420px;
+    height: 420px;
+}
+
+.myButton {
+    background-color:#e4685d;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    border-radius:15px;
+    display:inline-block;
+    cursor:pointer;
+    font-size:18px;
+    padding:8px 24px;
+    text-decoration:none;
+    border: 1.5px solid black;
+}
+
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+
+.cell {
+    position: relative;
+    border: 2px solid black;
+    border-radius: 10px;
+    float:left;
+    width:100px;
+    height:100px;
+    display: inline-flex;
+    background-color: white;
+    font-size: 56px;
+    line-height: 100px;
+    text-align: center;
+    margin: auto;
+}
+
+.val2 {
+    background-color: #FFE79F;
+    display: inline-block;
+}
+
+.val4 {
+    background-color: #FFAEFA;
+    display: inline-block;
+}
+
+.val8 {
+    background-color: #FFAB68;
+    display: inline-block;
+}
+
+.val16 {
+    background-color: #FF768C;
+    display: inline-block;
+}
+
+.val32 {
+    background-color: #FF7145;
+    display: inline-block;
+}
+
+.val64 {
+    background-color: #C7FF8E;
+    display: inline-block;
+}
+
+.val128 {
+    background-color: #FF49A3;
+     
+     display: inline-block;
+}
+
+.val256 {
+    background-color: #D30021;
+    display: inline-block;
+}
+
+.val512 {
+    background-color: #FFBF00;
+    display: inline-block;
+}
+
+.val1024 {
+    background-color: #FF7145;
+    display: inline-block;
+}
+
+.val2048 {
+    background-color: #FF4B4B;
+    display: inline-block;
+}
